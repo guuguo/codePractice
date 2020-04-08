@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="refactor(gradle): 成功修改为gradle构建的项目">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/com/company/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/1_SumTwoNum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/2_AddTwoNum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/3_LengthOfLongestSubstring.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/4_FindMedianSortedArrays.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/5_LongestPalindrome.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/6_Solution.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SumAllSubsets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tools.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +46,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +102,7 @@
       <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClass.test9">
+  <component name="RunManager" selected="Kotlin.com.company._6_SolutionKt">
     <configuration name="TestClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,14 +123,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.company._5_LongestPalindromeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="code" />
+    <configuration name="com.company._6_SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.company._5_LongestPalindromeKt" />
+      <option name="MAIN_CLASS_NAME" value="com.company._6_SolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestClass.test9" />
       <item itemvalue="JUnit.TestClass.test" />
-      <item itemvalue="Kotlin.main.company._5_LongestPalindromeKt" />
+      <item itemvalue="JUnit.TestClass.test9" />
       <item itemvalue="Kotlin.main.company._6_SolutionKt" />
       <item itemvalue="Kotlin script.build.gradle.kts" />
+      <item itemvalue="Kotlin.com.company._6_SolutionKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.company._6_SolutionKt" />
         <item itemvalue="JUnit.TestClass.test9" />
         <item itemvalue="JUnit.TestClass.test" />
         <item itemvalue="Kotlin script.build.gradle.kts" />
         <item itemvalue="Kotlin.main.company._6_SolutionKt" />
-        <item itemvalue="Kotlin.main.company._5_LongestPalindromeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562675159763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor(gradle): 成功修改为gradle构建的项目">
+      <created>1586185529851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586185529851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -256,45 +239,54 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="''" />
-    <option name="LAST_COMMIT_MESSAGE" value="''" />
+    <MESSAGE value="refactor(gradle): 成功修改为gradle构建的项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(gradle): 成功修改为gradle构建的项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="511" y="140" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586181533066">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="511" y="140" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1586181533066" />
-    <state x="378" y="11" key="CommitChangelistDialog2" timestamp="1586185425464">
+    <state x="378" y="11" key="CommitChangelistDialog2" timestamp="1586185527920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="378" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586185425464" />
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1586181648273">
+    <state x="378" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586185527920" />
+    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1586262675722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586181648273" />
-    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1586181648273">
+    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586262675722" />
+    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1586262675720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586181648273" />
-    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1586181648273">
+    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586262675720" />
+    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1586262675718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586181648273" />
-    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1586181648273">
+    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586262675718" />
+    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1586262675721">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586181648273" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1586185465219">
+    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586262675721" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1586261320833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586185465219" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586261320833" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586313970644">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586313970644" />
+    <state width="519" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1586263538618">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="519" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.834@0.0.1536.834" timestamp="1586263538618" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586182462806">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1586182462806" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586185480015">
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586261284844">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586185480015" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586261284844" />
     <state x="178" y="19" key="new project wizard" timestamp="1586182348933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -303,9 +295,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="540" y="120" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1586181901165" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1586182212359">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1586261490178">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1586182212359" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1586261490178" />
   </component>
 </project>
