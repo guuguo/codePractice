@@ -1,4 +1,4 @@
-package com.company;
+package com.company.test;
 
 public class Test {
     public static final String s1 = "我是s1";
