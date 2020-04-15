@@ -1,10 +1,8 @@
-import com.company.checkTime
-import com.company.isMatch
-import com.company.isPalindrome
+import com.company.*
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class TestClass {
+class `Test9-15` {
     @Test
     fun test9() {
         assertEquals(true, isPalindrome(121))
@@ -32,6 +30,30 @@ class TestClass {
                 assertEquals(true, isMatch("aab", "c*a*b"))
                 assertEquals(false, isMatch("mississippi", "mis*is*p*."))
                 assertEquals(true, isMatch("mississippi", "mi.*pi"))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test11() {
+        {
+            repeat(10000) {
+                assertEquals(49, maxArea(intArrayOf(1,8,6,2,5,4,8,3,7)))
+                assertEquals(1, maxArea(intArrayOf(1,2)))
+                assertEquals(2, maxArea(intArrayOf(1,2,5)))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test12() {
+        {
+            repeat(10000) {
+                assertEquals("III", intToRoman(3))
+                assertEquals("IV", intToRoman(4))
+                assertEquals("V", intToRoman(5))
+                assertEquals("MCMXCIV", intToRoman(1994))
+                assertEquals("LVIII", intToRoman(58))
+                assertEquals("MMCMXCIX", intToRoman(2999))
+                assertEquals("LXXXI", intToRoman(81))
             }
         }.checkTime()
     }
