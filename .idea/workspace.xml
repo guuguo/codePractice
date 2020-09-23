@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="fix(gradle): 上传遗漏代码">
-      <change afterPath="$PROJECT_DIR$/.idea/codePractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/11_盛最多水的容器 .kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/12_整数转罗马数字 .kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/15_三数之和 .kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test9-15.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Tools.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Tools.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test9-15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test9-15.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +80,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556355579669" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice" />
-      <recent name="$PROJECT_DIR$/src/com/company" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -91,8 +100,20 @@
       <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
       <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\idea\codePractice\src\main\java\com\company" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice" />
+      <recent name="$PROJECT_DIR$/src/com/company" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test9-15.test12">
+  <component name="RunManager" selected="JUnit.Test9-15.test15">
     <configuration name="Test9-15.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,25 +134,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test9-15.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test9-15" />
+      <option name="METHOD_NAME" value="test15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClass.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.company._6_SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.company._6_SolutionKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,20 +170,21 @@
     <list>
       <item itemvalue="JUnit.TestClass.test10" />
       <item itemvalue="JUnit.Test9-15.test11" />
-      <item itemvalue="Kotlin.com.company._6_SolutionKt" />
-      <item itemvalue="Kotlin.com.company.test.阻塞队列尝试Kt" />
       <item itemvalue="JUnit.Test9-15.test12" />
+      <item itemvalue="JUnit.Test9-15.test15" />
+      <item itemvalue="Kotlin.com.company.test.阻塞队列尝试Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test9-15.test15" />
         <item itemvalue="JUnit.Test9-15.test12" />
         <item itemvalue="JUnit.Test9-15.test11" />
         <item itemvalue="Kotlin.com.company.test.阻塞队列尝试Kt" />
         <item itemvalue="JUnit.TestClass.test10" />
-        <item itemvalue="Kotlin.com.company._6_SolutionKt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,6 +236,18 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="''" />
     <MESSAGE value="refactor(gradle): 成功修改为gradle构建的项目" />
@@ -225,99 +256,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 新增leetcode第十题代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="279" key="#Notifications" timestamp="1586955456779">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600751858607">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="651" y="279" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1586955456779" />
-    <state x="344" y="66" key="#TestClass.test10" timestamp="1586524359008">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600751858607" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1600839031941">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="344" y="66" key="#TestClass.test10/0.0.1536.834@0.0.1536.834" timestamp="1586524359008" />
-    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586963109087">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600839031941" />
+    <state width="2517" height="762" key="GridCell.Tab.0.bottom" timestamp="1600839637791">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1586963109087" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586519939936">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="2517" height="762" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600839637791" />
+    <state width="2517" height="762" key="GridCell.Tab.0.center" timestamp="1600839637791">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1586519939936" />
-    <state x="511" y="140" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586181533066">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="2517" height="762" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600839637791" />
+    <state width="2517" height="762" key="GridCell.Tab.0.left" timestamp="1600839637791">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="511" y="140" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1586181533066" />
-    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1586868462626">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="2517" height="762" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600839637791" />
+    <state width="2517" height="762" key="GridCell.Tab.0.right" timestamp="1600839637791">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586868462626" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1586945226670">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="2517" height="762" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600839637791" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1600749901309">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1586945226670" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1586963275466">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600749901309" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600838769693">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586963275466" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1586963275466">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600838769693" />
+    <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600749626297">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586963275466" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1586963275466">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600749626297" />
+    <state x="981" y="432" width="598" height="536" key="find.popup" timestamp="1600766817031">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586963275466" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1586963275466">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586963275466" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1586261320833">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586261320833" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1586868467691">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586868467691" />
-    <state width="519" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1586263538618">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="519" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.834@0.0.1536.834" timestamp="1586263538618" />
-    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586182462806">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1586182462806" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586782931857">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586782931857" />
-    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586519910704">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1586519910704" />
-    <state x="468" y="208" key="git4idea.merge.GitPullDialog" timestamp="1586519933562">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="468" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1586519933562" />
-    <state x="178" y="19" key="new project wizard" timestamp="1586182348933">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="178" y="19" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1586182348933" />
-    <state x="540" y="120" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1586181901165">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="540" y="120" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1586181901165" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1586957519172">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1586957519172" />
+    <state x="981" y="432" width="598" height="536" key="find.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600766817031" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="bChar" />
-        <watch expression="thisCharIndex + 1" />
-        <watch expression="p.substring(thisCharIndex + 1, p.length)" />
-        <watch expression="findNoStarIndex(pIndex + 2)" />
-        <watch expression="isMatchIt(sIndex + 1, noSharpNext)" />
+        <watch expression="nums[i]" language="kotlin" />
+        <watch expression="nums[j]" language="kotlin" />
+        <watch expression="nums[k]" language="kotlin" />
+        <watch expression="(j + 1..downToFrom)" />
       </configuration>
     </watches-manager>
   </component>
