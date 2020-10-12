@@ -90,11 +90,19 @@ class `Test9-20` {
     }
 
     @Test
-    fun test17() {
+    fun test18() {
         {
             repeat(10000) {
-                assertEquals(listOf("ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"), letterCombinations("23"))
-                assertEquals(listOf("a", "b", "c"), letterCombinations("2"))
+                assertEquals(listOf(
+                        listOf(-2, -1, 1, 2),
+                        listOf(-2, 0, 0, 2),
+                        listOf(-1, 0, 0, 1)
+                ), fourSum(intArrayOf(1, 0, -1, 0, -2, 2), 0))
+
+                assertEquals(listOf(listOf(0, 0, 0, 0)), fourSum(intArrayOf(0, 0, 0, 0), 0))
+                assertEquals(listOf<List<Int>>(), fourSum(intArrayOf(0, 0, 0, 1), 0))
+
+                assertEquals(listOf(listOf(-2, -1, 1, 2), listOf(-1, -1, 1, 1)), fourSum(intArrayOf(-2, -1, -1, 1, 1, 2, 2), 0))
             }
         }.checkTime()
     }
