@@ -106,4 +106,23 @@ class `Test9-20` {
             }
         }.checkTime()
     }
+
+    @Test
+    fun test19() {
+        {
+            repeat(1) {
+                assertEquals((ListNode(1) + 2 + 4 + 5).toString(), removeNthFromEnd(ListNode(1) + 2 + 3 + 4 + 5, 3).toString())
+                assertEquals(null.toString(), removeNthFromEnd(ListNode(1), 1).toString())
+                assertEquals((ListNode(2) + 3).toString(), removeNthFromEnd(ListNode(1) + 2 + 3, 3).toString())
+            }
+        }.checkTime()
+    }
+
+    operator fun ListNode.plus(n: Int) = this.apply {
+        var lNext: ListNode? = this
+        while (lNext?.next != null) {
+            lNext = lNext?.next
+        }
+        lNext?.next = ListNode(n)
+    }
 }
