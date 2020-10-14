@@ -1,5 +1,10 @@
 package com.company
 
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+
 fun (() -> Unit).checkTime() {
     Runnable {
         val startTime = System.currentTimeMillis()

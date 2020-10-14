@@ -1,3 +1,4 @@
+import kotlinx.coroutines.coroutineScope
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "com.company"
@@ -20,6 +21,7 @@ dependencies {
     testImplementation("junit:junit:4.12")
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
 }
 
 tasks.test {

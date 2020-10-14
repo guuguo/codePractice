@@ -22,9 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 新增四数之和">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/19_删除链表的倒数第N个节点.kt" afterDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 新增删除倒数第n个">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/20_有效的括号.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinScripting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Tools.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Tools.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test9-20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test9-20.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +50,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="codePractice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codePractice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -79,16 +91,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556355579669" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/company/19_删除链表的倒数第N个节点.kt" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -112,22 +129,12 @@
       <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test9-20.test19">
+  <component name="RunManager" selected="JUnit.Test9-20.test20">
     <configuration name="Test9-20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test9-20" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test9-20.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test9-20" />
-      <option name="METHOD_NAME" value="test16" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,20 +169,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test9-20.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test9-20" />
+      <option name="METHOD_NAME" value="test20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Test9-20.test16" />
+      <item itemvalue="JUnit.Test9-20" />
       <item itemvalue="JUnit.Test9-20.test17" />
       <item itemvalue="JUnit.Test9-20.test18" />
       <item itemvalue="JUnit.Test9-20.test19" />
-      <item itemvalue="JUnit.Test9-20" />
+      <item itemvalue="JUnit.Test9-20.test20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test9-20.test20" />
         <item itemvalue="JUnit.Test9-20.test19" />
-        <item itemvalue="JUnit.Test9-20" />
         <item itemvalue="JUnit.Test9-20.test18" />
         <item itemvalue="JUnit.Test9-20.test17" />
-        <item itemvalue="JUnit.Test9-20.test16" />
+        <item itemvalue="JUnit.Test9-20" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602495547192</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(leetcode): 新增删除倒数第n个">
+      <created>1602578713836</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602578713836</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -280,49 +304,58 @@
     <MESSAGE value="feat(leetcode): 新增最接近的三数之和" />
     <MESSAGE value="feat(leetcode): 新增电话号码的数字组合" />
     <MESSAGE value="feat(leetcode): 新增四数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 新增四数之和" />
+    <MESSAGE value="feat(leetcode): 新增删除倒数第n个" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 新增删除倒数第n个" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602576586340">
+    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602579161811">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602576586340" />
-    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1602495328791">
+    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579161811" />
+    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1602579758114">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="472" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602495328791" />
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1602492245862">
+    <state width="472" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579758114" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1602578782424">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602492245862" />
-    <state width="2517" height="614" key="GridCell.Tab.0.bottom" timestamp="1602577036259">
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602578782424" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1602580692662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="614" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602577036259" />
-    <state width="2517" height="614" key="GridCell.Tab.0.center" timestamp="1602577036259">
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602580692662" />
+    <state width="2517" height="614" key="GridCell.Tab.0.bottom" timestamp="1602579869525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="614" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602577036259" />
-    <state width="2517" height="614" key="GridCell.Tab.0.left" timestamp="1602577036259">
+    <state width="2517" height="614" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579869525" />
+    <state width="2517" height="614" key="GridCell.Tab.0.center" timestamp="1602579869525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="614" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602577036259" />
-    <state width="2517" height="614" key="GridCell.Tab.0.right" timestamp="1602577036259">
+    <state width="2517" height="614" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579869525" />
+    <state width="2517" height="614" key="GridCell.Tab.0.left" timestamp="1602579869525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="614" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602577036259" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1600749901309">
+    <state width="2517" height="614" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579869525" />
+    <state width="2517" height="614" key="GridCell.Tab.0.right" timestamp="1602579869525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600749901309" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1602495550822">
+    <state width="2517" height="614" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602579869525" />
+    <state x="966" y="303" key="SettingsEditor" timestamp="1602582011995">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602495550822" />
+    <state x="966" y="303" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602582011995" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1602578715099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602578715099" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600838769693">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600838769693" />
+    <state x="999" y="661" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602580613541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="661" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602580613541" />
     <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600749626297">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -331,20 +364,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600939213170" />
-    <state x="981" y="432" width="598" height="536" key="find.popup" timestamp="1600940143068">
+    <state x="981" y="432" width="598" height="536" key="find.popup" timestamp="1602582045343">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="981" y="432" width="598" height="536" key="find.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600940143068" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Test9-20.kt</url>
-          <line>115</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="981" y="432" width="598" height="536" key="find.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602582045343" />
   </component>
 </project>

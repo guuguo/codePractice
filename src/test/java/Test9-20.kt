@@ -125,4 +125,18 @@ class `Test9-20` {
         }
         lNext?.next = ListNode(n)
     }
+    @Test
+    fun test20() {
+        {
+            repeat(1) {
+                assertEquals(true, isValid("()"))
+                assertEquals(true, isValid("()[]{}"))
+                assertEquals(false, isValid("(]"))
+                assertEquals(false, isValid("(){]"))
+                assertEquals(false, isValid("({)}"))
+                assertEquals(true, isValid("{[]}"))
+                assertEquals(false, isValid("{[]}}{"))
+            }
+        }.checkTime()
+    }
 }
