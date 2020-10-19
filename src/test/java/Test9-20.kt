@@ -118,13 +118,7 @@ class `Test9-20` {
         }.checkTime()
     }
 
-    operator fun ListNode.plus(n: Int) = this.apply {
-        var lNext: ListNode? = this
-        while (lNext?.next != null) {
-            lNext = lNext?.next
-        }
-        lNext?.next = ListNode(n)
-    }
+
     @Test
     fun test20() {
         {

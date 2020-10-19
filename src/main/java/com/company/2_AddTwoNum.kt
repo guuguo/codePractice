@@ -21,17 +21,29 @@ class AddTwoNum {
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
     override fun toString(): String {
-        return "->${`val`}" + (next?.toString()?:"")
+        return "->${`val`}" + (next?.toString() ?: "")
+    }
+
+    override fun equals(other: Any?): Boolean {
+        return toString() == other.toString()
     }
 }
 
 fun main(args: Array<String>) {
     {
-        val node1=ListNode(2).apply { next = ListNode(4).apply { next = ListNode(3) } }
-        val node2=ListNode(5).apply { next = ListNode(6).apply { next = ListNode(4) } }
-        val res = AddTwoNum().addTwoNumbers1(node1,node2)
+        val node1 = ListNode(2).apply { next = ListNode(4).apply { next = ListNode(3) } }
+        val node2 = ListNode(5).apply { next = ListNode(6).apply { next = ListNode(4) } }
+        val res = AddTwoNum().addTwoNumbers1(node1, node2)
         println(node1)
         println(node2)
         println(res)
     }.checkTime()
+}
+
+operator fun ListNode.plus(n: Int) = this.apply {
+    var lNext: ListNode? = this
+    while (lNext?.next != null) {
+        lNext = lNext?.next
+    }
+    lNext?.next = ListNode(n)
 }
