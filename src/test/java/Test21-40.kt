@@ -36,5 +36,16 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+    @Test
+    fun test24() {
+        {
+            repeat(10000) {
+                assertEquals(ListNode(2)+1+4+3, swapPairs(ListNode(1)+2+3+4))
+                assertEquals(null, swapPairs(null))
+                assertEquals(ListNode(2), swapPairs(ListNode(2)))
+                assertEquals(ListNode(1)+2+3, swapPairs(ListNode(2)+1+3))
+            }
+        }.checkTime()
+    }
 
 }

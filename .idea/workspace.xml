@@ -22,14 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 新增有效的括号">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/21_合并两个有序链表.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/22_括号生成.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/23_合并K个升序链表.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test21-40.kt" afterDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 新增合并k个升序列表">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/24_两两交换链表中的节点.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/2_AddTwoNum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/2_AddTwoNum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test9-20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test9-20.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test21-40.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test21-40.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,19 +107,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
-      <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\idea\codePractice\src\main\java\com\company" />
@@ -131,8 +119,16 @@
       <recent name="C:\guuguo\dev\leetcode\codePractice" />
       <recent name="$PROJECT_DIR$/src/com/company" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
+      <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test21-40.test23">
+  <component name="RunManager" selected="JUnit.Test21-40.test24">
     <configuration name="Test21-40.test21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,11 +159,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test9-20.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test21-40.test24" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test9-20" />
-      <option name="METHOD_NAME" value="test20" />
+      <option name="MAIN_CLASS_NAME" value="Test21-40" />
+      <option name="METHOD_NAME" value="test24" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test9-20.test20" />
       <item itemvalue="JUnit.Test21-40.test21" />
       <item itemvalue="JUnit.Test21-40.test22" />
       <item itemvalue="Kotlin script.build.gradle.kts" />
       <item itemvalue="JUnit.Test21-40.test23" />
+      <item itemvalue="JUnit.Test21-40.test24" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test21-40.test24" />
         <item itemvalue="JUnit.Test21-40.test23" />
         <item itemvalue="Kotlin script.build.gradle.kts" />
         <item itemvalue="JUnit.Test21-40.test22" />
         <item itemvalue="JUnit.Test21-40.test21" />
-        <item itemvalue="JUnit.Test9-20.test20" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602669705086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat(leetcode): 新增合并k个升序列表">
+      <created>1603090659579</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603090659579</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -341,17 +344,18 @@
     <MESSAGE value="feat(leetcode): 新增四数之和" />
     <MESSAGE value="feat(leetcode): 新增删除倒数第n个" />
     <MESSAGE value="feat(leetcode): 新增有效的括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 新增有效的括号" />
+    <MESSAGE value="feat(leetcode): 新增合并k个升序列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 新增合并k个升序列表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1114" y="551" key="#Updates" timestamp="1602827747654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1114" y="551" key="#Updates/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602827747654" />
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602818098271">
+    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603091906812">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602818098271" />
+    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603091906812" />
     <state width="537" height="466" key="DebuggerActiveHint" timestamp="1603079576094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -364,30 +368,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602580692662" />
-    <state width="2517" height="574" key="GridCell.Tab.0.bottom" timestamp="1603089999759">
+    <state width="2517" height="350" key="GridCell.Tab.0.bottom" timestamp="1603091892231">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="574" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603089999759" />
-    <state width="2517" height="574" key="GridCell.Tab.0.center" timestamp="1603089999758">
+    <state width="2517" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603091892231" />
+    <state width="2517" height="350" key="GridCell.Tab.0.center" timestamp="1603091892231">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="574" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603089999758" />
-    <state width="2517" height="574" key="GridCell.Tab.0.left" timestamp="1603089999758">
+    <state width="2517" height="350" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603091892231" />
+    <state width="2517" height="350" key="GridCell.Tab.0.left" timestamp="1603091892231">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="574" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603089999758" />
-    <state width="2517" height="574" key="GridCell.Tab.0.right" timestamp="1603089999758">
+    <state width="2517" height="350" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603091892231" />
+    <state width="2517" height="350" key="GridCell.Tab.0.right" timestamp="1603091892231">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="574" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603089999758" />
+    <state width="2517" height="350" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603091892231" />
     <state x="966" y="303" key="SettingsEditor" timestamp="1602828031641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="966" y="303" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602828031641" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1602669707161">
+    <state x="1123" y="612" key="VCS.EditChangelistDialog" timestamp="1603090607210">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602669707161" />
+    <state x="1123" y="612" key="VCS.EditChangelistDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603090607210" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1603090708786">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603090708786" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603088828540">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
