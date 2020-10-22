@@ -1,4 +1,3 @@
-import kotlinx.coroutines.coroutineScope
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "com.company"
@@ -12,14 +11,14 @@ buildscript {
 }
 plugins {
     java
-    kotlin("jvm") version "1.3.71"
+    kotlin("jvm") version "1.4.10"
 }
 repositories {
     maven { setUrl ( "https://maven.aliyun.com/repository/central") }
 }
 dependencies {
     testImplementation("junit:junit:4.12")
-    implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("stdlib-jdk8","1.4.10"))
     implementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
 }
