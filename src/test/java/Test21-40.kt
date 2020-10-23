@@ -1,4 +1,5 @@
 import com.company.*
+import kotlinx.coroutines.coroutineScope
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -24,6 +25,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test23() {
         {
@@ -36,6 +38,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test24() {
         {
@@ -47,6 +50,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test25() {
         {
@@ -61,6 +65,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test27() {
         {
@@ -70,6 +75,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test28() {
         {
@@ -81,6 +87,7 @@ class `Test21-40` {
             }
         }.checkTime()
     }
+
     @Test
     fun test29() {
         {
@@ -93,6 +100,38 @@ class `Test21-40` {
                 assertEquals(1, divide(2, 2))
                 assertEquals(-2, divide(7, -3))
                 assertEquals(0, divide(0, -3))
+            }
+        }.checkTime()
+    }
+
+    @Test
+    fun test30() {
+        {
+            repeat(10000) {
+                assertEquals(listOf(0, 9), findSubstring("barfoothefoobarman", arrayOf("foo", "bar")))
+                assertEquals(listOf<Int>(), findSubstring("wordgoodgoodgoodbestword", arrayOf("word", "good", "best", "word")))
+                assertEquals(listOf(0, 1, 2, 3), findSubstring("aaaaa", arrayOf("a", "a")))
+            }
+        }.checkTime()
+    }
+
+    @Test
+    fun test31() {
+        {
+            repeat(10000) {
+
+                assertEquals(intArrayOf(2,2,1,1,2,2,2,2).toList().toString(), intArrayOf(2,1,2,2,2,2,2,1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(2,3,3,1,3).toList().toString(), intArrayOf(2,3,1,3,3).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(2,3,1,2,2,2,4,5,7).toList().toString(), intArrayOf(2,2,7,5,4,3,2,2,1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(3, 1,2).toList().toString(), intArrayOf(2, 3, 1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(2, 1,3).toList().toString(), intArrayOf(1, 3, 2).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1, 3, 2).toList().toString(), intArrayOf(1, 2, 3).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1, 2, 3).toList().toString(), intArrayOf(3, 2, 1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1, 5, 1).toList().toString(), intArrayOf(1, 1, 5).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1, 5, 7).toList().toString(), intArrayOf(7, 5, 1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf().toList().toString(), intArrayOf().also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1).toList().toString(), intArrayOf(1).also { nextPermutation(it) }.toList().toString())
+                assertEquals(intArrayOf(1,2,3,4,6,5).toList().toString(), intArrayOf(1,2,3,4,5,6).also { nextPermutation(it) }.toList().toString())
             }
         }.checkTime()
     }
