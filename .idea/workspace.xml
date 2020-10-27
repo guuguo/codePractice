@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 添加几题">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/32_最长有效括号.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/33_搜索旋转排序数组.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/34_在排序数组中查找元素的第一个和最后一个位置.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/35_搜索插入位置.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/37_ 解数独 .kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test21-40.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test21-40.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +83,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1aAWpdfTnnezvgja8Gowe0pm7g5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,17 +133,7 @@
       <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test21-40.test36">
-    <configuration name="Test21-40.test32" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test21-40" />
-      <option name="METHOD_NAME" value="test32" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test21-40.test37">
     <configuration name="Test21-40.test33" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -184,20 +174,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test21-40.test37" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test21-40" />
+      <option name="METHOD_NAME" value="test37" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Test21-40.test32" />
       <item itemvalue="JUnit.Test21-40.test33" />
       <item itemvalue="JUnit.Test21-40.test34" />
       <item itemvalue="JUnit.Test21-40.test35" />
       <item itemvalue="JUnit.Test21-40.test36" />
+      <item itemvalue="JUnit.Test21-40.test37" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test21-40.test37" />
         <item itemvalue="JUnit.Test21-40.test36" />
         <item itemvalue="JUnit.Test21-40.test35" />
         <item itemvalue="JUnit.Test21-40.test34" />
         <item itemvalue="JUnit.Test21-40.test33" />
-        <item itemvalue="JUnit.Test21-40.test32" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603444724650</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(leetcode): 添加几题">
+      <created>1603706800818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603706800818</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -364,10 +371,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1704" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603181838590" />
-    <state width="1002" height="466" key="DebuggerActiveHint" timestamp="1603700417126">
+    <state width="1002" height="466" key="DebuggerActiveHint" timestamp="1603779751010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1002" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603700417126" />
+    <state width="1002" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603779751010" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1603077808148">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -376,22 +383,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603700764935" />
-    <state width="2517" height="513" key="GridCell.Tab.0.bottom" timestamp="1603706560272">
+    <state width="2517" height="343" key="GridCell.Tab.0.bottom" timestamp="1603780393944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="513" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603706560272" />
-    <state width="2517" height="513" key="GridCell.Tab.0.center" timestamp="1603706560272">
+    <state width="2517" height="343" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603780393944" />
+    <state width="2517" height="343" key="GridCell.Tab.0.center" timestamp="1603780393944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="513" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603706560272" />
-    <state width="2517" height="513" key="GridCell.Tab.0.left" timestamp="1603706560272">
+    <state width="2517" height="343" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603780393944" />
+    <state width="2517" height="343" key="GridCell.Tab.0.left" timestamp="1603780393944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="513" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603706560272" />
-    <state width="2517" height="513" key="GridCell.Tab.0.right" timestamp="1603706560272">
+    <state width="2517" height="343" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603780393944" />
+    <state width="2517" height="343" key="GridCell.Tab.0.right" timestamp="1603780393944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="513" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603706560272" />
+    <state width="2517" height="343" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603780393944" />
     <state x="1036" y="401" key="RollbackChangesDialog" timestamp="1603694976773">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -404,14 +411,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1123" y="612" key="VCS.EditChangelistDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603090607210" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1603444726150">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1603706804094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603444726150" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603335927634">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603706804094" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603785608654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603335927634" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603785608654" />
     <state x="999" y="661" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602580613541">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -424,10 +431,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600749626297" />
-    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603695945806">
+    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603779020987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603695945806" />
+    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603779020987" />
     <state x="92" y="92" width="2376" height="1216" key="dock-window-1" timestamp="1602751506067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -440,10 +447,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" width="672" height="677" key="run.anything.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603439160058" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603678453423">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603763539597">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603678453423" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603763539597" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,5 +471,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="horizontalArray[i][checkNum]" />
+        <watch expression="verticalArray[j][checkNum]" />
+        <watch expression="sqArray[i / 3 + j / 3 * 3][checkNum]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
