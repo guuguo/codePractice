@@ -22,6 +22,7 @@ fun combinationSum2(candidates: IntArray, target: Int): List<List<Int>> {
 
 fun finNList2(candidates: IntArray, target: Int, start: Int, n: Int, path: Stack<Int>, result: MutableList<List<Int>>) {
     for (i in start until candidates.size) {
+        if (i > start && candidates[i] == candidates[i - 1]) continue
         if (candidates[i] * n > target) return
         val newTarget = target - candidates[i]
         if (newTarget < 0) return
@@ -31,7 +32,7 @@ fun finNList2(candidates: IntArray, target: Int, start: Int, n: Int, path: Stack
             else continue
         } else {
             path.add(candidates[i])
-            finNList2(candidates,newTarget,i,n-1,path,result)
+            finNList2(candidates, newTarget, i + 1, n - 1, path, result)
             path.pop()
         }
     }

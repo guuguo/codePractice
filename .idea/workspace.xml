@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 添加几题">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/38_外观数列 .kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/39_组合总和.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/40_组合总和II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/37_ 解数独 .kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/37_解数独 .kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/40_组合总和II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/40_组合总和II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test21-40.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test21-40.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,22 +108,14 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/company/19_删除链表的倒数第N个节点.kt" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
-      <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\idea\codePractice\src\main\java\com\company" />
@@ -133,6 +123,14 @@
       <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company" />
       <recent name="C:\guuguo\dev\leetcode\codePractice" />
       <recent name="$PROJECT_DIR$/src/com/company" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
+      <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Test21-40.test40">
@@ -327,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603785636759</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat(leetcode): 添加几题">
+      <created>1604471168502</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604471168502</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -392,22 +397,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603788678829" />
-    <state width="2517" height="603" key="GridCell.Tab.0.bottom" timestamp="1604047678577">
+    <state width="2517" height="405" key="GridCell.Tab.0.bottom" timestamp="1604994985043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="603" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604047678577" />
-    <state width="2517" height="603" key="GridCell.Tab.0.center" timestamp="1604047678577">
+    <state width="2517" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985043" />
+    <state width="2517" height="405" key="GridCell.Tab.0.center" timestamp="1604994985042">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="603" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604047678577" />
-    <state width="2517" height="603" key="GridCell.Tab.0.left" timestamp="1604047678577">
+    <state width="2517" height="405" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
+    <state width="2517" height="405" key="GridCell.Tab.0.left" timestamp="1604994985042">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="603" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604047678577" />
-    <state width="2517" height="603" key="GridCell.Tab.0.right" timestamp="1604047678577">
+    <state width="2517" height="405" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
+    <state width="2517" height="405" key="GridCell.Tab.0.right" timestamp="1604994985042">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="603" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604047678577" />
+    <state width="2517" height="405" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
     <state x="1036" y="401" key="RollbackChangesDialog" timestamp="1603694976773">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -420,10 +425,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1123" y="612" key="VCS.EditChangelistDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603090607210" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1603785639047">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1604471170053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603785639047" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604471170053" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603785608654">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

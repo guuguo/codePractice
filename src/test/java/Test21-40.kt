@@ -306,10 +306,9 @@ class `Test21-40` {
     fun test40() {
         {
             repeat(1) {
-                assertEquals(listOf(listOf(1)), combinationSum(intArrayOf(1,2), 1))
-                assertEquals(listOf(listOf(7), listOf(2, 2, 3)), combinationSum(intArrayOf(2, 3, 6, 7), 7))
-                assertEquals(listOf(listOf(3, 5), listOf(2, 3, 3), listOf(2, 2, 2, 2)), combinationSum(intArrayOf(2, 3, 5), 8))
-                assertEquals(emptyList<List<Int>>(), combinationSum(intArrayOf(6,7,8), 5))
+                assertEquals(listOf(listOf(1)), combinationSum2(intArrayOf(1, 2), 1))
+                assertEquals(listOf(listOf(5), listOf(1, 2, 2)), combinationSum2(intArrayOf(2, 5, 2, 1, 2), 5))
+                assertEquals(listOf(listOf(1, 7), listOf(2, 6), listOf(1, 1, 6), listOf(1, 2, 5)), combinationSum2(intArrayOf(10, 1, 2, 7, 6, 1, 5), 8))
             }
         }.checkTime()
     }
