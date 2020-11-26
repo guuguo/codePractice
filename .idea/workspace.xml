@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 添加几题">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/40_组合总和II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/40_组合总和II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test21-40.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test21-40.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/company/19_删除链表的倒数第N个节点.kt" />
   </component>
@@ -417,10 +415,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1036" y="401" key="RollbackChangesDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603694976773" />
-    <state x="1186" y="406" key="SettingsEditor" timestamp="1603245260038">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="458" y="71" key="SettingsEditor" timestamp="1605580187893">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="458" y="71" key="SettingsEditor/0.0.1440.900/-387.-1080.1920.1080@0.0.1440.900" timestamp="1605580187893" />
     <state x="1186" y="406" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603245260038" />
+    <state x="458" y="87" key="SettingsEditor/0.25.1440.790/-387.-1055.1920.1055@0.25.1440.790" timestamp="1605580086018" />
     <state x="1123" y="612" key="VCS.EditChangelistDialog" timestamp="1603090607210">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
