@@ -42,17 +42,42 @@ class `Test41-60` {
     fun test43() {
         {
             repeat(10000) {
-                assertEquals("121932631112635269", multiply("123456789", "987654321"))
-                assertEquals("0", multiply("0", "2312"))
+                assertEquals("121", multiply("11", "11"))
+                assertEquals("144", multiply("12", "12"))
                 assertEquals("6", multiply("2", "3"))
                 assertEquals("2312", multiply("1", "2312"))
                 assertEquals("56088", multiply("456", "123"))
-                assertEquals("121", multiply("11", "11"))
-                assertEquals("144", multiply("12", "12"))
                 assertEquals("40000", multiply("200", "200"))
                 assertEquals("100940", multiply("140", "721"))
+                assertEquals("0", multiply("0", "2312"))
+                assertEquals("121932631112635269", multiply("123456789", "987654321"))
             }
         }.checkTime()
     }
+
+    @Test
+    fun test44() {
+        {
+            repeat(1) {
+                assertEquals(false, isMatch2("ab", "*a"))
+                assertEquals(false, isMatch2("aa", "a"))
+                assertEquals(false, isMatch2("abbabaaabbabbaababbabbbbbabbbabbbabaaaaababababbbabababaabbababaabbbbbbaaaabababbbaabbbbaabbbbababababbaabbaababaabbbababababbbbaaabbbbbabaaaabbababbbbaababaabbababbbbbababbbabaaaaaaaabbbbbaabaaababaaaabb", "**aa*****ba*a*bb**aa*ab****a*aaaaaa***a*aaaa**bbabb*b*b**aaaaaaaaa*a********ba*bbb***a*ba*bb*bb**a*b*bb"))
+                assertEquals(true, isMatch2("abceb", "*a*b"))
+                assertEquals(true, isMatch2("aaaabaaaabbbbaabbbaabbaababbabbaaaababaaabbbbbbaabbbabababbaaabaabaaaaaabbaabbbbaababbababaabbbaababbbba", "*****b*aba***babaa*bbaba***a*aaba*b*aa**a*b**ba***a*a****"))
+                assertEquals(true, isMatch2("woshinibaba", "wo*ni*ba"))
+                assertEquals(false, isMatch2("woshinibaba", "wo*ni*?c"))
+                assertEquals(true, isMatch2("woshinibaba", "?*"))
+                assertEquals(false, isMatch2("woshinibaba", ""))
+                assertEquals(true, isMatch2("", ""))
+                assertEquals(true, isMatch2("woshinibaba", "*???"))
+                assertEquals(false, isMatch2("abc", "abd"))
+                assertEquals(true, isMatch2("aa", "*"))
+                assertEquals(false, isMatch2("abc", "ab"))
+                assertEquals(true, isMatch2("abc", "abc"))
+
+            }
+        }.checkTime()
+    }
+
 
 }
