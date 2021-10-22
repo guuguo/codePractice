@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 添加几题">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codePractice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +94,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556355579669" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -369,102 +370,6 @@
     <MESSAGE value="feat(leetcode): 新增两两交换节点" />
     <MESSAGE value="feat(leetcode): 添加几题" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 添加几题" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1114" y="551" key="#Updates" timestamp="1602827747654">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1114" y="551" key="#Updates/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602827747654" />
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603419994800">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="61" y="406" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603419994800" />
-    <state x="1704" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1603181838590">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1704" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603181838590" />
-    <state width="1002" height="466" key="DebuggerActiveHint" timestamp="1603850698575">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1002" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603850698575" />
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1603077808148">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603077808148" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1603788678829">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603788678829" />
-    <state width="2517" height="405" key="GridCell.Tab.0.bottom" timestamp="1604994985043">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985043" />
-    <state width="2517" height="405" key="GridCell.Tab.0.center" timestamp="1604994985042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="405" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
-    <state width="2517" height="405" key="GridCell.Tab.0.left" timestamp="1604994985042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="405" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
-    <state width="2517" height="405" key="GridCell.Tab.0.right" timestamp="1604994985042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="405" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604994985042" />
-    <state x="1036" y="401" key="RollbackChangesDialog" timestamp="1603694976773">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1036" y="401" key="RollbackChangesDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603694976773" />
-    <state x="458" y="71" key="SettingsEditor" timestamp="1605580187893">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="71" key="SettingsEditor/0.0.1440.900/-387.-1080.1920.1080@0.0.1440.900" timestamp="1605580187893" />
-    <state x="1186" y="406" key="SettingsEditor/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603245260038" />
-    <state x="458" y="87" key="SettingsEditor/0.25.1440.790/-387.-1055.1920.1055@0.25.1440.790" timestamp="1605580086018" />
-    <state x="1123" y="612" key="VCS.EditChangelistDialog" timestamp="1603090607210">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1123" y="612" key="VCS.EditChangelistDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603090607210" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1604471170053">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604471170053" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603785608654">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603785608654" />
-    <state x="999" y="661" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602580613541">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="999" y="661" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602580613541" />
-    <state x="1056" y="315" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603245351549">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1056" y="315" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603245351549" />
-    <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600749626297">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1084" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1600749626297" />
-    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603779020987">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="838" y="428" width="883" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603779020987" />
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-1" timestamp="1602751506067">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="dock-window-1/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1602751506067" />
-    <state x="981" y="432" width="598" height="594" key="find.popup" timestamp="1603424515272">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="981" y="432" width="598" height="594" key="find.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603424515272" />
-    <state x="936" y="330" width="672" height="677" key="run.anything.popup" timestamp="1603439160058">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="936" y="330" width="672" height="677" key="run.anything.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1603439160058" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604041781621">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.-371.1080.1880@0.0.2560.1400" timestamp="1604041781621" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
