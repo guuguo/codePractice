@@ -22,9 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat(leetcode): 添加几题">
-      <change beforePath="$PROJECT_DIR$/.idea/codePractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codePractice.iml" afterDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="revert:恢复误删的结构">
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/59_螺旋矩阵.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/32_最长有效括号.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/32_最长有效括号.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,12 @@
                 <item name="codePractice" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codePractice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -80,6 +92,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1aAWpdfTnnezvgja8Gowe0pm7g5" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -96,52 +123,66 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556355579669" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/company/19_删除链表的倒数第N个节点.kt" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/company" />
+      <recent name="D:\dev\idea\codePractice\src\main\java\com\company" />
+      <recent name="D:\dev\idea\codePractice\src\main\java\com\company\test" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/company/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/company" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
+      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\idea\codePractice\src\main\java\com\company" />
-      <recent name="D:\dev\idea\codePractice\src\main\java\com\company\test" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice" />
-      <recent name="$PROJECT_DIR$/src/com/company" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java\com\company\test" />
-      <recent name="C:\guuguo\dev\leetcode\codePractice\src\main\java" />
-      <recent name="E:\guodeqing\myDevelope\IdeaProjects\code\src\com\company" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test21-40.test40">
-    <configuration name="Test21-40.test35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test21-40" />
-      <option name="METHOD_NAME" value="test35" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.codePractice [build]">
+    <configuration name="codePractice [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Test21-40.test36" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
@@ -184,19 +225,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test21-40.test35" />
       <item itemvalue="JUnit.Test21-40.test36" />
       <item itemvalue="JUnit.Test21-40.test37" />
       <item itemvalue="JUnit.Test21-40.test39" />
       <item itemvalue="JUnit.Test21-40.test40" />
+      <item itemvalue="Gradle.codePractice [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.codePractice [build]" />
         <item itemvalue="JUnit.Test21-40.test40" />
         <item itemvalue="JUnit.Test21-40.test39" />
         <item itemvalue="JUnit.Test21-40.test37" />
         <item itemvalue="JUnit.Test21-40.test36" />
-        <item itemvalue="JUnit.Test21-40.test35" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604471168502</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="revert:恢复误删的结构">
+      <created>1634884988553</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634884988553</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -348,7 +396,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -369,7 +429,8 @@
     <MESSAGE value="feat(leetcode): 新增合并k个升序列表" />
     <MESSAGE value="feat(leetcode): 新增两两交换节点" />
     <MESSAGE value="feat(leetcode): 添加几题" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): 添加几题" />
+    <MESSAGE value="revert:恢复误删的结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert:恢复误删的结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -390,5 +451,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

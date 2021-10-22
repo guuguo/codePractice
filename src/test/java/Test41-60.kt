@@ -4,18 +4,18 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class `Test41-60` {
-    @Test
-    fun test41() {
-        {
-            repeat(1) {
-                assertEquals(3, firstMissingPositive(intArrayOf(1, 2, 0)))
-                assertEquals(2, firstMissingPositive(intArrayOf(1, 1)))
-                assertEquals(2, firstMissingPositive(intArrayOf(3, 4, -1, 1)))
-                assertEquals(1, firstMissingPositive(intArrayOf(7, 8, 9, 11, 12)))
-                assertEquals(6, firstMissingPositive(intArrayOf(2, 4, 1, 3, 5)))
-            }
-        }.checkTime()
-    }
+//    @Test
+//    fun test41() {
+//        {
+//            repeat(1) {
+//                assertEquals(3, firstMissingPositive(intArrayOf(1, 2, 0)))
+//                assertEquals(2, firstMissingPositive(intArrayOf(1, 1)))
+//                assertEquals(2, firstMissingPositive(intArrayOf(3, 4, -1, 1)))
+//                assertEquals(1, firstMissingPositive(intArrayOf(7, 8, 9, 11, 12)))
+//                assertEquals(6, firstMissingPositive(intArrayOf(2, 4, 1, 3, 5)))
+//            }
+//        }.checkTime()
+//    }
 
     @Test
     fun test42() {
