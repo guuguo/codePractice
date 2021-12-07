@@ -22,15 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="revert:恢复误删的结构">
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/59_螺旋矩阵.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="fix:修复跑不起来的问题">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/60_排序序列.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/61_旋转链表.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/62_不同路径.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test61-80.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codePractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/32_最长有效括号.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/32_最长有效括号.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/36_有效的数独.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/41_缺失的第一个正数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/59_螺旋矩阵.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/59_螺旋矩阵.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test41-60.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test41-60.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +63,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="codePractice" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codePractice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codePractice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -99,6 +90,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -162,7 +156,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.codePractice [build]">
+  <component name="RunManager" selected="JUnit.Test61-80.test42">
     <configuration name="codePractice [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,36 +178,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test21-40.test36" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test21-40" />
-      <option name="METHOD_NAME" value="test36" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test21-40.test37" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test21-40" />
-      <option name="METHOD_NAME" value="test37" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test21-40.test39" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test21-40" />
-      <option name="METHOD_NAME" value="test39" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test21-40.test40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -224,20 +188,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test41-60.test59" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test41-60" />
+      <option name="METHOD_NAME" value="test59" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test41-60.test60" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test41-60" />
+      <option name="METHOD_NAME" value="test60" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test61-80.test42" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test61-80" />
+      <option name="METHOD_NAME" value="test42" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Test21-40.test36" />
-      <item itemvalue="JUnit.Test21-40.test37" />
-      <item itemvalue="JUnit.Test21-40.test39" />
-      <item itemvalue="JUnit.Test21-40.test40" />
       <item itemvalue="Gradle.codePractice [build]" />
+      <item itemvalue="JUnit.Test21-40.test40" />
+      <item itemvalue="JUnit.Test41-60.test59" />
+      <item itemvalue="JUnit.Test41-60.test60" />
+      <item itemvalue="JUnit.Test61-80.test42" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test61-80.test42" />
+        <item itemvalue="JUnit.Test41-60.test60" />
+        <item itemvalue="JUnit.Test41-60.test59" />
         <item itemvalue="Gradle.codePractice [build]" />
         <item itemvalue="JUnit.Test21-40.test40" />
-        <item itemvalue="JUnit.Test21-40.test39" />
-        <item itemvalue="JUnit.Test21-40.test37" />
-        <item itemvalue="JUnit.Test21-40.test36" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634884988553</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix:修复跑不起来的问题">
+      <created>1634901784883</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634901784883</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -413,7 +414,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="''" />
@@ -430,7 +430,8 @@
     <MESSAGE value="feat(leetcode): 新增两两交换节点" />
     <MESSAGE value="feat(leetcode): 添加几题" />
     <MESSAGE value="revert:恢复误删的结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert:恢复误删的结构" />
+    <MESSAGE value="fix:修复跑不起来的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:修复跑不起来的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -451,6 +452,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="res[n-1]" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

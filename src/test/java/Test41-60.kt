@@ -1,5 +1,5 @@
 import com.company.*
-import kotlinx.coroutines.coroutineScope
+import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -74,6 +74,32 @@ class `Test41-60` {
                 assertEquals(true, isMatch2("aa", "*"))
                 assertEquals(false, isMatch2("abc", "ab"))
                 assertEquals(true, isMatch2("abc", "abc"))
+
+            }
+        }.checkTime()
+    }
+
+    @Test
+    fun test59() {
+        {
+            repeat(1) {
+//                Assert.assertArrayEquals(arrayOf(intArrayOf(1)), generateMatrix(1))
+//                Assert.assertArrayEquals(arrayOf(intArrayOf(1,2), intArrayOf(4,3)), generateMatrix(2))
+                Assert.assertArrayEquals(arrayOf(intArrayOf(1,2,3), intArrayOf(8,9,4), intArrayOf(7,6,5)), generateMatrix(3))
+
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test60() {
+        {
+            repeat(1) {
+                assertEquals("213", getPermutation(3,3))
+                assertEquals("1", getPermutation(1,1))
+                assertEquals("123", getPermutation(3,1))
+                assertEquals("1234", getPermutation(4,1))
+                assertEquals("1243", getPermutation(4,2))
+                assertEquals("321", getPermutation(3,6))
 
             }
         }.checkTime()
