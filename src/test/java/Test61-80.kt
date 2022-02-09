@@ -30,5 +30,41 @@ class `Test61-80` {
             }
         }.checkTime()
     }
+    @Test
+    fun test63() {
+        {
+            repeat(10000) {
+                assertEquals(2, uniquePathsWithObstacles(arrayOf(intArrayOf(0,0,0),intArrayOf(0,1,0),intArrayOf(0,0,0))))
+                assertEquals(0, uniquePathsWithObstacles(arrayOf(intArrayOf(1,0,0),intArrayOf(0,1,0),intArrayOf(0,0,0))))
+                assertEquals(0, uniquePathsWithObstacles(arrayOf(intArrayOf(0,0,0),intArrayOf(0,1,0),intArrayOf(0,0,1))))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test64() {
+        {
+            repeat(10000) {
+                assertEquals(7, minPathSum(arrayOf(intArrayOf(1,3,1),intArrayOf(1,5,1),intArrayOf(4,2,1))))
+                assertEquals(12, minPathSum(arrayOf(intArrayOf(1,2,3),intArrayOf(4,5,6))))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test65() {
+        {
+            repeat(10000) {
+                assertEquals(true, isNumber("53.5e93"))
+                assertEquals(true, isNumber("-123.456e789"))
+                assertEquals(false, isNumber("99e2.5"))
+                assertEquals(false, isNumber("--6"))
+                assertEquals(false, isNumber("95a54e53"))
+                assertEquals(false, isNumber("."))
+                assertEquals(false, isNumber(".5e"))
+                assertEquals(true, isNumber(".5e1"))
+                assertEquals(false, isNumber(".e"))
+                assertEquals(false, isNumber(".e1"))
+            }
+        }.checkTime()
+    }
 
 }
