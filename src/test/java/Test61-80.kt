@@ -66,5 +66,63 @@ class `Test61-80` {
             }
         }.checkTime()
     }
-
+    @Test
+    fun test68() {
+        {
+            repeat(10000) {
+                assertEquals(
+                    listOf(
+                        "What   must   be",
+                        "acknowledgment  ",
+                        "shall be        "
+                    ).joinToString(","),
+                    fullJustify(arrayOf("What", "must", "be", "acknowledgment", "shall", "be"), 16).joinToString(",")
+                )
+                assertEquals(
+                    listOf(
+                        "Science  is  what we",
+                        "understand      well",
+                        "enough to explain to",
+                        "a  computer.  Art is",
+                        "everything  else  we",
+                        "do                  "
+                    ).joinToString(","),
+                    fullJustify(
+                        arrayOf(
+                            "Science",
+                            "is",
+                            "what",
+                            "we",
+                            "understand",
+                            "well",
+                            "enough",
+                            "to",
+                            "explain",
+                            "to",
+                            "a",
+                            "computer.",
+                            "Art",
+                            "is",
+                            "everything",
+                            "else",
+                            "we",
+                            "do"
+                        ), 20
+                    ).joinToString(",")
+                )
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test69() {
+        {
+            repeat(10) {
+                assertEquals(2, mySqrt(4))
+                assertEquals(2, mySqrt(8))
+                assertEquals(3, mySqrt(9))
+                assertEquals(46339, mySqrt(2147395599))
+                assertEquals(46340, mySqrt(2147395600))
+            }
+        }.checkTime()
+    }
 }
