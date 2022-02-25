@@ -125,4 +125,49 @@ class `Test61-80` {
             }
         }.checkTime()
     }
+
+    @Test
+    fun test70() {
+        {
+            repeat(10) {
+                assertEquals(2, climbStairs(2))
+                assertEquals(3, climbStairs(3))
+                assertEquals(5, climbStairs(4))
+                assertEquals(8, climbStairs(5))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test71() {
+        {
+            repeat(10000) {
+                assertEquals("/home", simplifyPath("/home/"))
+                assertEquals("/", simplifyPath("/../"))
+                assertEquals("/home/foo", simplifyPath("/home//foo/"))
+                assertEquals("/c", simplifyPath("/a/./b/../../c/"))
+                assertEquals("/a/b/c", simplifyPath("/a//b////c/d//././/.."))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test72() {
+        {
+            repeat(10000) {
+                assertEquals(1, minDistance("a","b"))
+                assertEquals(1, minDistance("ab","b"))
+                assertEquals(3, minDistance("horse","ros"))
+                assertEquals(5, minDistance("intention","execution"))
+                assertEquals(2, minDistance("sea","eat"))
+            }
+        }.checkTime()
+    }
+    @Test
+    fun test73() {
+        {
+            repeat(10000) {
+                setZeroes(arrayOf(intArrayOf(1)))
+                setZeroes(arrayOf(intArrayOf(1,1,1),intArrayOf(1,0,1),intArrayOf(1,1,1)))
+            }
+        }.checkTime()
+    }
 }

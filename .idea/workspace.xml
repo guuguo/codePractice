@@ -22,10 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat:新增63，65">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/68_文本左右对齐.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/69_x的平方根.kt" afterDir="false" />
+    <list default="true" id="a4efb265-a6f2-4053-bfbd-145de88cd2d9" name="Default" comment="feat:新增68，69">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/71_简化路径.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/72_编辑距离.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/73_矩阵置零.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/70_爬楼梯.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/70_爬楼梯.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test61-80.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test61-80.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,58 +163,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test61-80.test69">
-    <configuration name="codePractice [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test61-80.test63" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test61-80" />
-      <option name="METHOD_NAME" value="test63" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test61-80.test65" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test61-80" />
-      <option name="METHOD_NAME" value="test65" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test61-80.test68" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codePractice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test61-80" />
-      <option name="METHOD_NAME" value="test68" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test61-80.test73">
     <configuration name="Test61-80.test69" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codePractice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -223,20 +174,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test61-80.test70" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test61-80" />
+      <option name="METHOD_NAME" value="test70" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test61-80.test71" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test61-80" />
+      <option name="METHOD_NAME" value="test71" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test61-80.test72" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test61-80" />
+      <option name="METHOD_NAME" value="test72" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test61-80.test73" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codePractice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test61-80" />
+      <option name="METHOD_NAME" value="test73" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.codePractice [build]" />
-      <item itemvalue="JUnit.Test61-80.test63" />
-      <item itemvalue="JUnit.Test61-80.test65" />
-      <item itemvalue="JUnit.Test61-80.test68" />
       <item itemvalue="JUnit.Test61-80.test69" />
+      <item itemvalue="JUnit.Test61-80.test70" />
+      <item itemvalue="JUnit.Test61-80.test71" />
+      <item itemvalue="JUnit.Test61-80.test72" />
+      <item itemvalue="JUnit.Test61-80.test73" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test61-80.test73" />
+        <item itemvalue="JUnit.Test61-80.test72" />
+        <item itemvalue="JUnit.Test61-80.test71" />
+        <item itemvalue="JUnit.Test61-80.test70" />
         <item itemvalue="JUnit.Test61-80.test69" />
-        <item itemvalue="JUnit.Test61-80.test68" />
-        <item itemvalue="JUnit.Test61-80.test65" />
-        <item itemvalue="JUnit.Test61-80.test63" />
-        <item itemvalue="Gradle.codePractice [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644403789249</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat:新增68，69">
+      <created>1644492802008</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644492802008</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -459,7 +457,8 @@
     <MESSAGE value="fix:修复跑不起来的问题" />
     <MESSAGE value="feat:新增61-62" />
     <MESSAGE value="feat:新增63，65" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:新增63，65" />
+    <MESSAGE value="feat:新增68，69" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:新增68，69" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
